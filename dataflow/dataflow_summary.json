@@ -137,7 +137,8 @@
 				"          AgencyName,",
 				"          FiscalYear,",
 				"          TotalPaid",
-				"     )) ~> synapsenycppayrollsummary"
+				"     ),",
+				"     partitionBy('hash', 1)) ~> synapsenycppayrollsummary"
 			]
 		}
 	}
