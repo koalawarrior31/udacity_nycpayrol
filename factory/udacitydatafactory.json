@@ -1,0 +1,17 @@
+{
+	"name": "udacitydatafactory",
+	"properties": {
+		"globalParameters": {
+			"dataflow_param_fiscalyear": {
+				"type": "int",
+				"value": 2021
+			}
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6885c33e-e700-489f-8d2b-ffa45f7c358a",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
